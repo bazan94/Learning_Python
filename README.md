@@ -9,7 +9,7 @@ Topics that I went through:
           Repetitive Code
           Some Unanswered Questions 
           Grouping Code Together Using Functions 
-          The Main Function  
+          The Main Function 
           Variable Scope
           How to Deal with Errors 
           Case Sensitivity with Strings
