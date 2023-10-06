@@ -1,0 +1,10 @@
+Code and Test a Python program that ...
+
+...  displays "* * Check Education Level* *" at the top of the program then calls a function that checks to see what the user's education level is.
+
+The first thing the function does is prompt the user for their first name.
+
+Now, prompt the user for their education level.  There are four valid answers, HS, BS, MS, and PhD.  
+If the user does not enter a valid education level, display a message that indicates that, e.g.  
+"Valid education level not entered, please try again" and give the user a chance to try again,
+otherwise display a friendly message that says that shows their first name and their education level and end the program.
