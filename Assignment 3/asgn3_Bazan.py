@@ -1,3 +1,4 @@
+#Ramiro Bazan
 def main():
 	print("* * The Wizard Game * *")
 
