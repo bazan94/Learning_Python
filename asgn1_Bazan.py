@@ -1,6 +1,4 @@
 #Ramiro Bazan
-#CSIT 175
-#08/28/2023
 
 #1. Display "Assignment 1" as the first line and then skips a line
 assign = "Assignment 1"
