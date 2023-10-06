@@ -1,0 +1,19 @@
+Code and Test a Python program that ...
+
+... displays "* * The Wizard Game * *" and then asks the user "How many Questions do you want to ask the Wizard?  
+If the users entered a valid value, then call an "processQuestions" function and send it the integer value for the number they entered in response to the question, 
+otherwise display a message that says, "That's not a number.  The Wizard wants you to go away now!" and end the program displaying "END OF PROGRAM" 
+
+The "processQuestions" function should repetitively ask the user "What's your question?".  
+Note:  
+You are required to use a for-loop for this!  If the user enters "bye" stop the loop and end the program displaying "END OF PROGRAM", 
+otherwise call a "getAnswer" function sending it the answer that the user entered in response to the "What's your question?" prompt.  
+Data will be sent back from the "getAnswer" function that contains the message that you then display to the user.  
+Number the display of the Wizard answers. If the for-loop reaches the maximum iterations allowed, then display "You may not ask any more questions!" and end the program displaying "END OF PROGRAM" 
+
+The "getAnswer" function should receive the text of the question the user said they wanted to ask.  
+If the question begins with the word "Who", then store "Who, Who... isn't that a sound an owl makes?" in a message variable. 
+If the question begins with the word "What", then store "What is the meaning of life?" in a message variable. 
+If the question begins with the word "How", then store " How do you do?" in a message variable. 
+If the question does not start with "Who", "What", or "How" then store "I don't know" in a message variable.  
+Prepend the value in the message variable with "The Wizard answers: " and send the data back to the statement that called the "getAnswer" function.
