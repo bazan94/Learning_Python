@@ -1,0 +1,20 @@
+
+Reminder...
+
+NOTE: ALL code that is not specified  to be in another function, MUST be defined in the main function.  The exceptions are the calling of main function, which must the last line in the program, and any import statements, which should be specified at the top of the program.
+
+IMPORTANT:  Define all other functions BEFORE the main function.  In other words, define your functions at the top of the program with the main function being the last function listed.
+
+ 
+
+Code and Test a Python program that ...
+
+... prompts the user to see if they want to know how to dress today.  If they answer Yes (case-insensitive) then call an "askQuestions" function otherwise display a message that hopes they don't get caught in the rain and end the program displaying "END OF PROGRAM" 
+
+ 
+
+The "askQuestions" function should ask the user to enter their first name and then ask them how many locations they want to check.  If they do not enter a valid value display a message that tells them that they did not enter a valid number and end the program displaying "END OF PROGRAM", otherwise display a message that greets them with their first name and tells them the number of locations that they entered, them call a "checkLocations" function sending it the number of locations they said they wanted to check.
+
+ 
+
+The "checkLocations" function should receive the number of locations the users said they wanted to check.  The first thing the function should do is display "Note: The only valid locations answers are London, Chicago, or India" and then repetitively ask the user "What location should I check?".  If the user enters "bye" end the program displaying "END OF PROGRAM".  If the user enters "London", display a message that says, "It's Spring.  Dress for mild weather".  If the user enters "Chicago" display a message that says, "It's Winter.  Bundle Up".  If the user enters "India" display a message that says, "It's Really Hot!  Put on some sunscreen".  If the user did not enter either "London", "Chicago", or "India" to the "What location should I check?" question then display, "Location Not Found".  The "What location should I check?" question should not display to the user any more times then the number of locations the users said they wanted to check.  Once that limit is reached a message should be displayed that says, You may not check any other locations!", then end the program displaying "END OF PROGRAM"  
