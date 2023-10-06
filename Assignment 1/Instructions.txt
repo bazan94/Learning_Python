@@ -1,0 +1,30 @@
+Instructions
+Please carefully read the Assignment Requirements  shown below and follow the instructions.   
+
+Use only the Python concepts/techniques covered to date.
+
+ 
+
+Assignment 1 Requirements
+Name your program asgn1_yourlastname.py  (obviously, replace "yourlastname" with your last name!)
+
+ 
+
+Code and Test a Python program that will... 
+
+          1. Display "Assignment 1" as the first line and then skips a line.
+
+2. Prompt the user for their name, age, and number of hours they sleep and store their answers into program variables
+
+3. Use the following mathematical formula to determine how many years of their life has been wasted sleeping...
+
+       wasted_years = (hours_slept/24) * users_age
+
+4. Format a String message that is in a format similar to what's shown below and display it on the Console.  This example shows what would display if if I entered "Steve" for the name, 54 for the age, and 8 for hours I sleep at night.  Your program must work for ANY name, age, or hours slept numbers entered by the user.
+
+          Hello Steve.
+          You have been unconscious for 18.0 years!
+
+(Note:  Do not round the result, you will learn how to do that later.)
+
+5.  Make sure that the period appears directly after the name in the display!  (Must be "Hello Steve." , not "Hello Steve .")
